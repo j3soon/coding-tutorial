@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Tutorial"
+title                    : "Coding Tutorial"
 title_separator          : "|"
 name                     : "Project Crystal"
-description              : "Site that contains some supplementary materials of I2P C language."
+description              : "This site contains some supplementary materials for NTHU course: I2P (Introduction to programming)."
 url                      : "https://j3soon.com/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "j3soon/coding-tutorial"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "Project Crystal"
   avatar           : "/assets/images/crystal_black.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A long lost dark crystal found in the deepest cave located in NTHU campus."
+  bio              : "A long lost dark crystal found in the deepest cave located in NTHU campus.<br/><br/>This site contains some supplementary materials for NTHU course: I2P (Introduction to programming). The black crystal above is licensed by <a href='https://www.instagram.com/j00bcat/'>Jenny</a>."
   location         : "Taiwan"
   email            : "j3.soon@msa.hinet.net"
   uri              : "https://j3soon.com/coding-tutorial"
@@ -117,7 +117,7 @@ author:
   gitlab           :
   google_plus      :
   keybase          :
-  instagram        : "j00bcat"
+  instagram        : 
   lastfm           :
   linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
