@@ -63,7 +63,7 @@ search_full_content      : # true, false (default)
 search_provider          : algolia # lunr (default), algolia, google
 algolia:
   application_id         : "WWLHJPLIMH" # YOUR_APPLICATION_ID
-  index_name             : "j3soon.com/coding-tutorial/" # YOUR_INDEX_NAME
+  index_name             : "coding-tutorial" # YOUR_INDEX_NAME
   search_only_api_key    : "78b9e1a75aa116c42f825854f28ae935" # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
 google:
