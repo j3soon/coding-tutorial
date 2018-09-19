@@ -1,0 +1,13 @@
+main:
+  - title: "C language"
+    url: /c-language/motivation-of-project-crystal/
+#  - title: "Posts"
+#    url: /year-archive/
+#  - title: "Follow us on Instagram!"
+#    url: https://www.instagram.com/project_crystal/
+
+docs:
+  - title: Basics
+    children:
+      - title: "Variables and the Assignment Operator"
+        url: /c-language/variables-and-the-assignment-operator/

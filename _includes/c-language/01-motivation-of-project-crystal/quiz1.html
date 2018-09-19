@@ -1,0 +1,33 @@
+<script>
+window.addEventListener("load",function(){
+    quizzes['quiz-1'] = new Quiz('quiz-1', [
+        'b'
+    ]);
+},false);
+</script>
+<!-- Quiz 1 -->
+<div id="quiz-1">
+    <h2>Quiz</h2>
+    <!-- Question 1 -->
+    <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+            <div markdown="1">
+```c
+#include <stdio.h>
+int main() {
+    printf("Hello World!");
+    return 0;
+}
+```
+</div>1. What is the output of the code above?
+        </div>
+        <div class="quizlib-question-answers">
+            <ul>
+                <li><label><input type="radio" name="q1" value="a">Goodbye Cruel World!</label></li>
+                <li><label><input type="radio" name="q1" value="b">Hello World!</label></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Answer Button. Here, we pass the ID of the quiz element (the parent of this button) to the showResults function.  -->
+    <button type="button" onclick="showResults(this.parentNode.id);">Check Answers</button>
+</div>
