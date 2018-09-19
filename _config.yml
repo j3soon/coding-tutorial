@@ -16,20 +16,20 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Coding Tutorial"
+title                    : "Project Crystal"
 title_separator          : "|"
-name                     : "Project Crystal"
+name                     : "Dark Crystal"
 description              : "This site contains some supplementary materials for NTHU course: I2P (Introduction to programming)."
 url                      : "https://j3soon.com/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "j3soon/coding-tutorial"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+baseurl                  : "/project-crystal"# the subpath of your site, e.g. "/blog"
+repository               : "j3soon/project-crystal"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs            : true # true, false (default)
-words_per_minute         : 200
+words_per_minute         : 60
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
-    shortname            : "coding-tutorial" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "project-crystal" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -63,7 +63,7 @@ search_full_content      : # true, false (default)
 search_provider          : algolia # lunr (default), algolia, google
 algolia:
   application_id         : "WWLHJPLIMH" # YOUR_APPLICATION_ID
-  index_name             : "coding-tutorial" # YOUR_INDEX_NAME
+  index_name             : "project-crystal" # YOUR_INDEX_NAME
   search_only_api_key    : "78b9e1a75aa116c42f825854f28ae935" # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
 google:
@@ -82,7 +82,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "/assets/images/crystal_black.png"# Open Graph/Twitter default site image
+og_image                 : "assets/images/crystal_black.png"# Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -100,13 +100,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Project Crystal"
-  avatar           : "/assets/images/crystal_black.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A long lost dark crystal found in the deepest cave located in NTHU campus.<br/><br/>This site contains some supplementary materials for NTHU course: I2P (Introduction to programming). The black crystal above is licensed by <a href='https://www.instagram.com/j00bcat/'>Jenny</a>."
+  name             : "Dark Crystal"
+  avatar           : "assets/images/crystal_black.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "A long lost crystal found in the abyss located under NTHU campus.<br/>Whoever possess it can cast dark magic that brings chaos and frustration to the rest of the world.<br/><br/>This site contains some supplementary materials for NTHU course: Introduction to programming.<br/>The black crystal above is licensed by <a href='https://www.instagram.com/j00bcat/'>Jenny</a>."
   location         : "Taiwan"
   email            : "j3.soon@msa.hinet.net"
-  uri              : "https://j3soon.com/coding-tutorial"
-  home             : "https://j3soon.com/coding-tutorial" # null (default), "absolute or relative url to link to author home"
+  uri              : "https://j3soon.com/project-crystal"
+  home             : "https://j3soon.com/project-crystal" # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -117,7 +117,7 @@ author:
   gitlab           :
   google_plus      :
   keybase          :
-  instagram        : 
+  instagram        : "project_crystal"
   lastfm           :
   linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
@@ -269,3 +269,29 @@ defaults:
       comments: true
       share: true
       related: true
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: true
+      comments: true
+      share: true
+      toc: true
+      toc_sticky: true
+      sidebar:
+        nav: "docs"
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+
+collections:
+  docs:
+    output: true
+    permalink: /c-language/:path/
+
+imgs: "https://raw.githubusercontent.com/j3soon/project-crystal/master/assets/images"
