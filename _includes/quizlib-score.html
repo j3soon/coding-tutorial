@@ -40,6 +40,7 @@ function showResults(quizID) {
         // Highlight questions according to whether they were correctly answered. The callback allows us to highlight/show the correct answer
         activeQuiz.highlightResults(handleAnswers);
     }
+    location.href='#quiz' + quizID;
 }
 
 /** Callback for Quiz.highlightResults. Highlights the correct answers of incorrectly answered questions 
