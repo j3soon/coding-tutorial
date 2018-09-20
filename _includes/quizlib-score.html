@@ -16,20 +16,20 @@ var quizzes = {};
  */
 function showResults(quizID) {
     // Retrieve the quiz instance for this quiz element from the map.
-    var activeQuiz = quizzes[quizID];
+    var activeQuiz = quizzes["quiz-" + quizID];
     // Check answers and continue if all questions have been answered
     if (activeQuiz.checkAnswers()) {
         var quizScorePercent = activeQuiz.result.scorePercentFormatted; // The unformatted percentage is a decimal in range 0 - 1
-        var quizResultElement = document.getElementById('quiz-result');
+        var quizResultElement = document.getElementById("quiz-result-" + quizID);
         // Move the quiz result element to the active quiz, placing it after the quiz title.
-        var quizElement = document.getElementById(quizID);
+        var quizElement = document.getElementById("quiz-" + quizID);
         quizElement.insertBefore(quizResultElement, quizElement.children[1]);
 
         // Show the result element and add result values.
         quizResultElement.style.display = 'block';
-        document.getElementById('quiz-score').innerHTML = activeQuiz.result.score.toString();
-        document.getElementById('quiz-max-score').innerHTML = activeQuiz.result.totalQuestions.toString();
-        document.getElementById('quiz-percent').innerHTML = quizScorePercent.toString();
+        document.getElementById('quiz-score-' + quizID).innerHTML = activeQuiz.result.score.toString();
+        document.getElementById('quiz-max-score-' + quizID).innerHTML = activeQuiz.result.totalQuestions.toString();
+        document.getElementById('quiz-percent-' + quizID).innerHTML = quizScorePercent.toString();
 
         // Change background colour of results div according to score percent
         if (quizScorePercent >= 75) quizResultElement.style.backgroundColor = '#4caf50';
@@ -67,8 +67,3 @@ function handleAnswers(quiz, question, no, correct) {
     }
 }
 </script>
-<!-- Quiz Results -->
-<!-- For this multi quiz, we'll use the same result element and move it to active quiz when the answer button is pressed. -->
-<div id="quiz-result" class="card">
-    You Scored <span id="quiz-percent"></span>% - <span id="quiz-score"></span>/<span id="quiz-max-score"></span><br/>
-</div>

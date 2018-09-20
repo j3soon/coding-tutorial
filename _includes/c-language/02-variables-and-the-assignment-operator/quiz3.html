@@ -1,0 +1,51 @@
+<script>
+window.addEventListener("load",function(){
+    quizzes['quiz-3'] = new Quiz('quiz-3', [
+        'c',
+        'c'
+    ]);
+},false);
+</script>
+<!-- Quiz 3 -->
+<div id="quiz-result-3" class="card quiz-result">
+    You Scored <span id="quiz-percent-3"></span>% - <span id="quiz-score-3"></span>/<span id="quiz-max-score-3"></span><br/>
+</div>
+<h3 id="quiz3">Quiz3</h3>
+<div id="quiz-3" class="card quizlib-section">
+    <!-- Question 1 -->
+    <div class="quizlib-question">
+        <div class="quizlib-question-title">
+            <div markdown="1">
+```c
+int main() {
+    int a = 0, b = 1;
+    a = b = 2;
+    // Pause here.
+    return 0;
+}
+```
+</div>1. a is
+        </div>
+        <div class="quizlib-question-answers">
+            <ul>
+                <li><label><input type="radio" name="q1" value="a">0</label></li>
+                <li><label><input type="radio" name="q1" value="b">1</label></li>
+                <li><label><input type="radio" name="q1" value="c">2</label></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Question 2 -->
+    <div class="quizlib-question">
+        <div class="quizlib-question-title">2. b is
+        </div>
+        <div class="quizlib-question-answers">
+            <ul>
+                <li><label><input type="radio" name="q2" value="a">0</label></li>
+                <li><label><input type="radio" name="q2" value="b">1</label></li>
+                <li><label><input type="radio" name="q2" value="c">2</label></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Answer Button. Here, we pass the ID of the quiz element (the parent of this button) to the showResults function.  -->
+</div>
+<button type="button" onclick="showResults(3);">Check Answers</button>

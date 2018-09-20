@@ -2,19 +2,21 @@
 title: "Motivation of Project Crystal"
 excerpt: "The motivations of Project Crystal."
 permalink: /c-language/motivation-of-project-crystal/
-last_modified_at: 2018-09-20 00:30:00
+last_modified_at: 2018-09-20 00:21:00
 tags: beginner
 ---
 
-Project Crystal 的觀眾群設定為剛進清大資工系但卻沒有程式基礎的人。一般而言上課的進度較快，很容易漏聽一些上課重點，所以我們希望提供一些補充教材給有熱忱的同學來複習。
+有程式基礎或能力很強的人，建議直接把這個網頁關掉，直接去看：
+- [C Tutorial](https://www.tutorialspoint.com/cprogramming/index.htm)
+- [C Pimer Plus by Stephen Prata](http://a.co/d/deD8s7I)
 
-大部分沒有程式基礎的同學都很容易遇到相同的問題，如果能把這些問題統整起來做成網頁，可能可以造福很多人。(應該吧？)
+Project Crystal 的觀眾群設定為剛進清大資工系但卻沒有程式基礎的人。一般而言上課的進度較快，很容易漏聽一些上課重點，通常同學遇到的問題都很雷同，因此我們希望把大家比較容易沒弄熟的觀念整理起來，給有熱忱的同學來複習。
 
-我們的目標是跟著「計算機程式設計一」舜仁教授的進度，發布供同學參考的補充資料。(至於能不能持續到期末就是另一回事了...)
+我們的目標是跟著「計算機程式設計一」舜仁教授的進度，發布供同學參考的觀念整理。(至於能不能持續到期末就是另一回事了...)
 
 <!--more-->
 
-這裡放的所有資訊如果有錯誤，或是有任何問題，希望大家能回報給我們 (<a href="mailto:j3.soon@msa.hinet.net">E-mail us!</a>)
+這裡放的資訊如果有錯誤，或是有任何問題，希望大家能回報給我們 (<a href="mailto:j3.soon@msa.hinet.net">E-mail us!</a>)
 
 ## Getting Started
 
