@@ -2,7 +2,7 @@
 title: "Variables and the Assignment Operator"
 excerpt: "excerpt"
 permalink: /c-language/variables-and-the-assignment-operator/
-last_modified_at: 2018-09-21 01:25:00
+last_modified_at: 2018-09-21 02:54:00
 ---
 
 希望大家看完這篇後能釐清宣告變數和把值指派給宣告過的變數的意義。
@@ -94,7 +94,7 @@ $$my\_int\leftarrow 10$$
 int a, b, c;
 ```
 
-指派初始值跟變數宣告可以連在一起，可以把這個當作跟分成兩行一樣。
+指派初始值跟變數宣告可以連在一起，可以把下面這行當作跟分成兩行一樣。
 
 ```c
 int a = 0;
@@ -118,7 +118,7 @@ int a = 0;
 
    ![img]({{site.imgs}}{{page.id}}/2.3-result-1.png)
 
-4. `a = (b = 2)` $\rightarrow$ `a = (b)`
+4. `a = (b = 2)` $$\rightarrow$$ `a = (b)`
 
    ![img]({{site.imgs}}{{page.id}}/2.4-get.png)
 
@@ -134,5 +134,5 @@ int a = 0;
 
 {% include {{page.id}}/quiz4.html %}
 
-沒有被初始化的區域變數，它的初始值並沒有被定義，因此這個變數不應被存取。如果真的不小心存取到，它通常會是 garbage value, 也就是各種奇怪的數字。
+沒有被初始化的區域變數，它的初始值並沒有被定義，因此這個變數不應被存取。如果真的不小心存取到，會是 Undefined behavior, 也就是說是不合法的，但它通常會是 garbage value, 也就是奇怪的數值，知道一下對 debug 會比較有幫助。
 

@@ -23,7 +23,7 @@ function showResults(quizID) {
         var quizResultElement = document.getElementById("quiz-result-" + quizID);
         // Move the quiz result element to the active quiz, placing it after the quiz title.
         var quizElement = document.getElementById("quiz-" + quizID);
-        quizElement.insertBefore(quizResultElement, quizElement.children[1]);
+        quizElement.insertBefore(quizResultElement, quizElement.children[0]);
 
         // Show the result element and add result values.
         quizResultElement.style.display = 'block';
