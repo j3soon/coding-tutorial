@@ -2,7 +2,7 @@
 title: "Variables and the Assignment Operator"
 excerpt: "excerpt"
 permalink: /c-language/variables-and-the-assignment-operator/
-last_modified_at: 2018-09-21 12:42:00
+last_modified_at: 2018-09-22 00:51:00
 tags: beginner
 ---
 
@@ -14,9 +14,7 @@ tags: beginner
 
 向系統要一塊記憶體，讓我們可以存東西，我們將它命名，方便之後存取。
 
-```c
-<type> <var_name>;
-```
+`<type> <var_name>;`
 
 - `<type>` 是變數的資料型別。
 - `<var_name>` 是變數的名稱。
@@ -43,10 +41,7 @@ int my_int;
 
 把指派運算子 (等於的符號) 右邊的值計算出來後，存入左邊的變數。
 
-```c
-// <var_name> must be declared beforehand.
-<var_name> = <value>;
-```
+`<var_name> = <value>;`
 
 - `<var_name>` 是宣告過的變數。
 - `<value>` 是我們想要存入變數的值。
@@ -87,7 +82,7 @@ $$my\_int\leftarrow 10$$
 
    ![img]({{site.imgs}}{{page.id}}/1.3-result.png)
 
-## Application
+## Declare and Define Multiple Variables
 
 平常寫程式時，我們可能會宣告很多型別相同的變數。那就可以寫成下面這樣，跟分開宣告的作用一模一樣。
 
