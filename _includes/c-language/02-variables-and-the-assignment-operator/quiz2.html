@@ -10,9 +10,9 @@ window.addEventListener("load",function(){
     You Scored <span id="quiz-percent-2"></span>% - <span id="quiz-score-2"></span>/<span id="quiz-max-score-2"></span><br/>
 </div>
 <h3 id="quiz2">Quiz2</h3>
-<div id="quiz-2">
+<div id="quiz-2" class="card quizlib-section">
     <!-- Question 1 -->
-    <div class="card quizlib-question">
+    <div class="quizlib-question">
         <div class="quizlib-question-title">
             <div markdown="1">
 ```c
@@ -32,5 +32,5 @@ int main() {
         </div>
     </div>
     <!-- Answer Button. Here, we pass the ID of the quiz element (the parent of this button) to the showResults function.  -->
-    <button type="button" onclick="showResults(2);">Check Answers</button>
 </div>
+<button type="button" onclick="showResults(2);">Check Answers</button>

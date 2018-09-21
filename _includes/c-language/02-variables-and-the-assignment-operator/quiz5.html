@@ -1,0 +1,38 @@
+<script>
+window.addEventListener("load",function(){
+    quizzes['quiz-5'] = new Quiz('quiz-5', [
+        'c'
+    ]);
+},false);
+</script>
+<!-- Quiz 5 -->
+<div id="quiz-result-5" class="card quiz-result">
+    You Scored <span id="quiz-percent-5"></span>% - <span id="quiz-score-5"></span>/<span id="quiz-max-score-5"></span><br/>
+</div>
+<h3 id="quiz5">Quiz5</h3>
+<div id="quiz-5" class="card quizlib-section">
+    <!-- Question 1 -->
+    <div class="quizlib-question">
+        <div class="quizlib-question-title">
+            <div markdown="1">
+```c
+int main() {
+    int a;
+    2 + a = 3;
+    // Pause here.
+    return 0;
+}
+```
+</div>1. 上面程式碼的編譯／執行結果
+        </div>
+        <div class="quizlib-question-answers">
+            <ul>
+                <li><label><input type="radio" name="q1" value="a">a is 1</label></li>
+                <li><label><input type="radio" name="q1" value="b">a is 3</label></li>
+                <li><label><input type="radio" name="q1" value="c">compile error</label></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Answer Button. Here, we pass the ID of the quiz element (the parent of this button) to the showResults function.  -->
+</div>
+<button type="button" onclick="showResults(5);">Check Answers</button>

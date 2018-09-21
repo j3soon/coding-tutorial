@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "Dark Crystal"
   avatar           : "assets/images/crystal_black.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A long lost crystal found in the abyss located under NTHU campus.<br/>Whoever possess it can cast dark magic that brings chaos and frustration to the rest of the world.<br/><br/>This site contains some supplementary materials for NTHU course: Introduction to programming.<br/>The black crystal above is licensed by <a href='https://www.instagram.com/j00bcat/'>Jenny</a>."
+  bio              : "A long lost crystal found in the abyss located under NTHU campus."
   location         : "Taiwan"
   email            : "j3.soon@msa.hinet.net"
   uri              : "https://j3soon.com/project-crystal"

@@ -2,7 +2,8 @@
 title: "Variables and the Assignment Operator"
 excerpt: "excerpt"
 permalink: /c-language/variables-and-the-assignment-operator/
-last_modified_at: 2018-09-21 02:54:00
+last_modified_at: 2018-09-21 12:42:00
+tags: beginner
 ---
 
 希望大家看完這篇後能釐清宣告變數和把值指派給宣告過的變數的意義。
@@ -136,3 +137,6 @@ int a = 0;
 
 沒有被初始化的區域變數，它的初始值並沒有被定義，因此這個變數不應被存取。如果真的不小心存取到，會是 Undefined behavior, 也就是說是不合法的，但它通常會是 garbage value, 也就是奇怪的數值，知道一下對 debug 會比較有幫助。
 
+{% include {{page.id}}/quiz5.html %}
+
+指派運算子左邊的東西要放變數 (格子)，這樣東西才放得進去。
