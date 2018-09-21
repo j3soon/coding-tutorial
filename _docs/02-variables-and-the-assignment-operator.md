@@ -75,7 +75,7 @@ $$my\_int\leftarrow 10$$
 1. `int my_int;`
 
    ![img]({{site.imgs}}{{page.id}}/1.1-indeterminate.png)
-2. `10`
+2. `my_int = 10`
 
    ![img]({{site.imgs}}{{page.id}}/1.2-assign.png)
 3. `my_int` is `10`
@@ -106,19 +106,19 @@ int a = 0;
 
    ![img]({{site.imgs}}{{page.id}}/2.1-initial.png)
 
-2. `2`
+2. `(b = 2)`
 
    ![img]({{site.imgs}}{{page.id}}/2.2-r-r.png)
 
-3. `(b = 2)`
+3. `b` is `2`
 
    ![img]({{site.imgs}}{{page.id}}/2.3-result-1.png)
 
-4. `a = (b = 2)` $$\rightarrow$$ `a = (b)`
+4. `(b = 2)` $$\rightarrow$$ `(b)`
 
    ![img]({{site.imgs}}{{page.id}}/2.4-get.png)
 
-5. `a = (2)`
+5. `a = (b = 2)` $$\rightarrow$$ `a = (b)` $$\rightarrow$$ `a = (2)`
 
    ![img]({{site.imgs}}{{page.id}}/2.5-r.png)
 
@@ -130,7 +130,7 @@ int a = 0;
 
 {% include {{page.id}}/quiz4.html %}
 
-沒有被初始化的區域變數，它的初始值並沒有被定義，因此這個變數不應被存取。如果真的不小心存取到，會是 Undefined behavior, 也就是說是不合法的，但它通常會是 garbage value, 也就是奇怪的數值，知道一下對 debug 會比較有幫助。
+沒有被初始化的區域變數，它的初始值並沒有被定義，因此這個變數不應被存取。如果真的不小心存取到，會是 Undefined behavior, 也就是說是不合法的，但它通常會是 garbage value, 也就是奇怪的數值，知道一下對 debug 會比較有幫助。這就像你剛搬到新的教室時，你的格子 (置物櫃) 裡面通常都會有一些別人留下來的垃圾 (garbage value)，很少是乾淨的 (0)。
 
 {% include {{page.id}}/quiz5.html %}
 

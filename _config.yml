@@ -274,7 +274,7 @@ defaults:
       path: ""
       type: docs
     values:
-      layout: single
+      layout: doc
       read_time: true
       comments: true
       share: true
