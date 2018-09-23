@@ -9,5 +9,7 @@ main:
 docs:
   - title: Basics
     children:
+      - title: "Program Structure"
+        url: /c-language/program-structure/
       - title: "Variables and the Assignment Operator"
         url: /c-language/variables-and-the-assignment-operator/

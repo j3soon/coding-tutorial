@@ -2,7 +2,7 @@
 title: "Motivation of Project Crystal"
 excerpt: "The motivations of Project Crystal."
 permalink: /c-language/motivation-of-project-crystal/
-last_modified_at: 2018-09-21 16:08:00
+last_modified_at: 2018-09-23 03:15:00
 tags: beginner
 ---
 
@@ -27,10 +27,10 @@ Project Crystal 的觀眾群設定為剛進清大資工系但卻沒有程式基�
 ![img]({{site.imgs}}{{page.id}}/crystal_black.png)
 
 > Dark Crystal
-> 
+>
 > A long lost crystal found in the abyss located under NTHU campus.<br/>Whoever possess it can cast dark magic that brings chaos and frustration to the rest of the world.
 
-<details><summary markdown="span">Credit</summary>The black crystal above is licensed by <a href="https://www.instagram.com/j00bcat/">Jenny</a>.</details>
+<details><summary markdown="span">Credit</summary>The black crystal above is licensed by <a href="https://www.instagram.com/j00bcat/">Jenny</a>.</details><br/>
 
 {% include {{page.id}}/quiz1.html %}
 
