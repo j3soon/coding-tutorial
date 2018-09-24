@@ -2,7 +2,7 @@
 title: "Variables and the Assignment Operator"
 excerpt: "希望大家看完這篇後能釐清宣告變數和把值指派給宣告過的變數的意義。"
 permalink: /c-language/variables-and-the-assignment-operator/
-last_modified_at: 2018-09-24 00:24:00
+last_modified_at: 2018-09-24 23:06:00
 tags: beginner
 ---
 
@@ -21,7 +21,7 @@ tags: beginner
 
 ### Example
 
-向系統要一塊記憶體，讓我們可以放一個整數 (Integer), 我們把那塊記憶體叫做 `my_int`.
+向系統要一塊記憶體，讓我們可以放一個整數 (Integer), 那塊記憶體裡面的值會改變，因此把那塊記憶體稱作變數，我們把它取名為 `my_int`.
 
 ```c
 int my_int;
@@ -29,9 +29,9 @@ int my_int;
 
 ### Analogy
 
-這就有點像是國高中換到新教室時，老師會給我們一個格子 (置物櫃) 來放東西。我們每次要放東西時，我們會想說：「把東西放到『我的格子』裡」，並不會想說：「把東西放到 XX 高中 XXX 班的 XX 號格子裡」。
+這就有點像是國高中換到新教室時，老師會給我們一個格子 (置物櫃) 來放東西。我們每次要放東西時，我們會想說：「把東西放到『我的格子』裡」，並不會特別去想說：「把東西放到 XX 高中 XXX 班的 XX 號格子裡」。
 
-在這裡，「格子」就是變數，裡面可以放東西 (值)，「我的格子」就是變數的名字。
+在這裡，「格子」裡的東西 (值) 可以一直更換，所以「格子」就是變數，「我的格子」就是變數的名字。
 
 ## Assignment Operator (指派運算子)
 
@@ -145,3 +145,8 @@ int a = 0;
 ## Review
 1. 指派運算子 (`=`) 並不是數學的等於，而是把 `=` 左邊的變數設為 `=` 右邊經計算而得的某個特定的數值。
 2. 區域變數如果沒有被初始化，是不應被存取的。萬一真的存取到它，通常會是一些 garbage value.
+
+![var_name]({{site.imgs}}{{page.id}}/var_name.png)
+<details><summary markdown="span">Credit</summary><div markdown="1">
+Posted on [Reddit](https://www.reddit.com/r/ProgrammerHumor/comments/5z6n8p/every_time/).
+</div></details>

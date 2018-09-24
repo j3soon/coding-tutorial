@@ -7,6 +7,10 @@ main:
 #    url: https://www.instagram.com/project_crystal/
 
 docs:
+  - title: ""
+    children:
+      - title: "Motivation of Project Crystal"
+        url: /c-language/motivation-of-project-crystal/
   - title: Basics
     children:
       - title: "Program Structure"

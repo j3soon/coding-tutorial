@@ -2,7 +2,7 @@
 title: "Motivation of Project Crystal"
 excerpt: "The motivations of Project Crystal."
 permalink: /c-language/motivation-of-project-crystal/
-last_modified_at: 2018-09-23 03:15:00
+last_modified_at: 2018-09-24 23:06:00
 tags: beginner
 ---
 
@@ -24,7 +24,7 @@ Project Crystal 的觀眾群設定為剛進清大資工系但卻沒有程式基�
 
 之後的講解通常都會是字、圖片、程式碼搭配混用。希望大家以取得黑水晶，成為 coding 大師為目標來努力。
 
-![img]({{site.imgs}}{{page.id}}/crystal_black.png)
+![black-crystal]({{site.imgs}}{{page.id}}/crystal_black.png)
 
 > Dark Crystal
 >
@@ -35,3 +35,10 @@ Project Crystal 的觀眾群設定為剛進清大資工系但卻沒有程式基�
 {% include {{page.id}}/quiz1.html %}
 
 {% include {{page.id}}/code1.html %}
+
+<br/>
+
+![asking-questions]({{site.imgs}}{{page.id}}/asking-questions-grant-snider.jpg)
+<details><summary markdown="span">Credit</summary><div markdown="1">
+[Incidental Comics by Grant Snider](http://www.incidentalcomics.com/2015/08/asking-questions.html) is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+</div></details>

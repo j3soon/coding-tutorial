@@ -2,7 +2,7 @@
 title: "Program Structure"
 excerpt: "目前我們編寫的 C 程式碼，都是 sequential 的，也就是按照順序，一次執行一個指令。"
 permalink: /c-language/program-structure/
-last_modified_at: 2018-09-24 00:19:00
+last_modified_at: 2018-09-24 23:41:00
 tags: beginner
 ---
 
@@ -70,9 +70,9 @@ C 有提供很多好用的函式，要用的時候就 include 相對應的 heade
    呼叫定義在 Standard I/O Header 裡面的 `scanf`, 顧名思義就是 scan formatted, 就是把你輸入的東西，按照特定的格式 (format) 掃描 (scan) 進你指定的變數裡。
 
    以這邊來講，`%d` 就是一種 format, 讓 `scanf` 知道你想要使用者輸入數字，而左邊的 `%d` 對應到 `a`, 右邊的 `%d` 對應到 `b`, 所以先輸入的會存進 `a` 裡，後輸入的則存進 `b`.
-   
+
    你可以把這行想成下面這樣：
-   
+
    ```c
    a = getInputDecimal();
    b = getInputDecimal();
@@ -107,7 +107,16 @@ C 有提供很多好用的函式，要用的時候就 include 相對應的 heade
 
    很多人可能都會忽略掉這個後大括號。實際上在 `{` 和 `}` 裡面宣告的變數，只要碰到後面的 `}`，都會被釋放掉並把記憶體還給系統。
 
+{% include {{page.id}}/quiz1.html %}
+
+因為程式碼通常是從上到下一步一步執行的，所以 `printf` 比 `scanf` 早發生，那這樣 `a` 和 `b` 在 `printf` 前都還沒被指派值，所以在 `sum = a + b;` 那行就不合法了。
+
 ## Review
 
 1. C 的程式碼是按照特定順序執行的，一次一個指令。
 2. `main` function 是程式的進入點，回傳給系統說是否順利執行。
+
+![little_coders]({{site.imgs}}{{page.id}}/little_coders.jpg)
+<details><summary markdown="span">Credit</summary><div markdown="1">
+[Geek & Poke](http://geek-and-poke.com/geekandpoke/2011/2/24/little-coders.html) is licensed under a [Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/).
+</div></details>
