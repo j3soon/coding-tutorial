@@ -3,7 +3,9 @@ main:
     url: /c-language/motivation-of-project-crystal/
 #  - title: "Posts"
 #    url: /year-archive/
-  - title: "Follow us on Instagram!"
+  - title: "Facebook"
+    url: https://www.facebook.com/projectcrystal0/
+  - title: "Instagram"
     url: https://www.instagram.com/project_crystal/
 
 docs:
