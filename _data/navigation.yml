@@ -3,8 +3,8 @@ main:
     url: /c-language/motivation-of-project-crystal/
 #  - title: "Posts"
 #    url: /year-archive/
-#  - title: "Follow us on Instagram!"
-#    url: https://www.instagram.com/project_crystal/
+  - title: "Follow us on Instagram!"
+    url: https://www.instagram.com/project_crystal/
 
 docs:
   - title: ""
@@ -21,3 +21,7 @@ docs:
         url: /c-language/program-structure/
       - title: "Variables and the Assignment Operator"
         url: /c-language/variables-and-the-assignment-operator/
+  - title: Contributing
+    children:
+      - title: "Contributing Guidelines"
+        url: /c-language/contributing-guidelines/
