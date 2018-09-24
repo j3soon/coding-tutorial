@@ -1,0 +1,23 @@
+<script>
+window.addEventListener("load",function(){
+    quizzes['quiz-5'] = new Quiz('quiz-5', [
+        '11.1011'
+    ]);
+},false);
+</script>
+<!-- Quiz 5 -->
+<div id="quiz-result-5" class="card quiz-result">
+    You Scored <span id="quiz-percent-5"></span>% - <span id="quiz-score-5"></span>/<span id="quiz-max-score-5"></span><br/>
+</div>
+<b id="quiz5">Quiz5</b>
+<div id="quiz-5" class="card quizlib-section">
+    <!-- Question 1 -->
+    <div class="quizlib-question">
+        <div class="quizlib-question-title">1. 十進位的 3.6875 轉成二進位是</div>
+        <div class="quizlib-question-answers">
+            <input type="text" name="q1">
+        </div>
+    </div>
+    <!-- Answer Button. Here, we pass the ID of the quiz element (the parent of this button) to the showResults function.  -->
+</div>
+<button type="button" onclick="showResults(5);">Check Answers</button>

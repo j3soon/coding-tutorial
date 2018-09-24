@@ -1,0 +1,31 @@
+<script>
+window.addEventListener("load",function(){
+    quizzes['quiz-3'] = new Quiz('quiz-3', [
+        'FB',
+        '10101100'
+    ]);
+},false);
+</script>
+<!-- Quiz 3 -->
+<div id="quiz-result-3" class="card quiz-result">
+    You Scored <span id="quiz-percent-3"></span>% - <span id="quiz-score-3"></span>/<span id="quiz-max-score-3"></span><br/>
+</div>
+<b id="quiz3">Quiz3</b>
+<div id="quiz-3" class="card quizlib-section">
+    <!-- Question 1 -->
+    <div class="quizlib-question">
+        <div class="quizlib-question-title">1. 二進位的 11111011 轉成十六進位是</div>
+        <div class="quizlib-question-answers">
+            <input type="text" name="q1">
+        </div>
+    </div>
+    <!-- Question 2 -->
+    <div class="quizlib-question">
+        <div class="quizlib-question-title">2. 十六進位的 AC 轉成二進位是</div>
+        <div class="quizlib-question-answers">
+            <input type="text" name="q2">
+        </div>
+    </div>
+    <!-- Answer Button. Here, we pass the ID of the quiz element (the parent of this button) to the showResults function.  -->
+</div>
+<button type="button" onclick="showResults(3);">Check Answers</button>

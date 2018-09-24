@@ -11,6 +11,10 @@ docs:
     children:
       - title: "Motivation of Project Crystal"
         url: /c-language/motivation-of-project-crystal/
+  - title: Math
+    children:
+      - title: "Numeral System"
+        url: /c-language/numeral-system/
   - title: Basics
     children:
       - title: "Program Structure"
