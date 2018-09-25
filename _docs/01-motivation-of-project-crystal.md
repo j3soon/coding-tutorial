@@ -37,8 +37,6 @@ Project Crystal 的觀眾群設定為剛進清大資工系但卻沒有程式基�
 
 {% include {{page.id}}/quiz1.html %}
 
-{% include {{page.id}}/code1.html %}
-
 <br/>
 
 ![asking-questions]({{site.imgs}}{{page.id}}/asking-questions-grant-snider.jpg)
