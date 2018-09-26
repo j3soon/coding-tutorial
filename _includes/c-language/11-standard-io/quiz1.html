@@ -1,0 +1,45 @@
+<script>
+window.addEventListener("load",function(){
+    quizzes['quiz-1'] = new Quiz('quiz-1', [
+        'c'
+    ]);
+},false);
+</script>
+<!-- Quiz 1 -->
+<div id="quiz-result-1" class="card quiz-result">
+    You Scored <span id="quiz-percent-1"></span>% - <span id="quiz-score-1"></span>/<span id="quiz-max-score-1"></span><br/>
+</div>
+<b id="quiz1">Quiz1</b>
+<div id="quiz-1" class="card quizlib-section">
+    <!-- Question 1 -->
+    <div class="quizlib-question">
+        <div class="quizlib-question-title">
+            <div markdown="1">
+```c
+#include <stdio.h>
+
+int main(void) {
+    int a, b;
+    scanf("%d%d", a, b);
+    printf("%d %d", a, b);
+    return 0;
+}
+```
+Input:
+```
+12 34
+
+```
+</div>1. 上面程式碼的編譯／執行結果是？
+        </div>
+        <div class="quizlib-question-answers">
+            <ul>
+                <li><label><input type="radio" name="q1" value="a">12 34</label></li>
+                <li><label><input type="radio" name="q1" value="b">34 12</label></li>
+                <li><label><input type="radio" name="q1" value="c">undefined behavior</label></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Answer Button. Here, we pass the ID of the quiz element (the parent of this button) to the showResults function.  -->
+</div>
+<button type="button" onclick="showResults(1);">Check Answers</button>

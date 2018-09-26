@@ -1,0 +1,46 @@
+<script>
+window.addEventListener("load",function(){
+    quizzes['quiz-16'] = new Quiz('quiz-16', [
+        '     101', 
+        ' 8787887', 
+        '00000101', 
+        '08787887'
+    ]);
+},false);
+</script>
+<!-- Quiz 16 -->
+<div id="quiz-result-16" class="card quiz-result">
+    You Scored <span id="quiz-percent-16"></span>% - <span id="quiz-score-16"></span>/<span id="quiz-max-score-16"></span><br/>
+</div>
+<b id="quiz16">Quiz16</b>
+<div id="quiz-16" class="card quizlib-section">
+    <!-- Question 1 -->
+    <div class="quizlib-question">
+        <div class="quizlib-question-title">
+            <div markdown="1">
+```c
+#include <stdio.h>
+
+int main(void) {
+    int a, b;
+    a = 101;
+    b = 8787887;
+    printf("%8d\n", a);
+    printf("%8d\n", b);
+    printf("%08d\n", a);
+    printf("%08d", b);
+    return 0;
+}
+```
+</div>1. What is the output of each of the lines of the code above?
+        </div>
+        <div class="quizlib-question-answers">
+            <input type="text" name="q1">
+        </div>
+    </div>
+    <div class="quizlib-question"><div class="quizlib-question-title"></div><div class="quizlib-question-answers"><input type="text" name="q2"></div></div>
+    <div class="quizlib-question"><div class="quizlib-question-title"></div><div class="quizlib-question-answers"><input type="text" name="q3"></div></div>
+    <div class="quizlib-question"><div class="quizlib-question-title"></div><div class="quizlib-question-answers"><input type="text" name="q4"></div></div>
+    <!-- Answer Button. Here, we pass the ID of the quiz element (the parent of this button) to the showResults function.  -->
+</div>
+<button type="button" onclick="showResults(16);">Check Answers</button>

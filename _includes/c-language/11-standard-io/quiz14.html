@@ -1,0 +1,54 @@
+<script>
+window.addEventListener("load",function(){
+    quizzes['quiz-14'] = new Quiz('quiz-14', [
+        'a'
+    ]);
+},false);
+</script>
+<!-- Quiz 14 -->
+<div id="quiz-result-14" class="card quiz-result">
+    You Scored <span id="quiz-percent-14"></span>% - <span id="quiz-score-14"></span>/<span id="quiz-max-score-14"></span><br/>
+</div>
+<b id="quiz14">Quiz14</b>
+<div id="quiz-14" class="card quizlib-section">
+    <!-- Question 1 -->
+    <div class="quizlib-question">
+        <div class="quizlib-question-title">
+            <div markdown="1">
+```c
+#include <stdio.h>
+
+int main(void) {
+    char a[5] = {'A', 'B', '\0', 'C', 'D'};
+    puts(a);
+    return 0;
+}
+```
+</div>1. What's the output?
+        </div>
+        <div class="quizlib-question-answers">
+            <ul>
+                <li><label><input type="radio" name="q1" value="a">Output:<div markdown="1">
+```
+AB
+
+```
+</div></label></li>
+                <li><label><input type="radio" name="q1" value="b">Output:<div markdown="1">
+```
+ABCD
+
+```
+</div></label></li>
+                <li><label><input type="radio" name="q1" value="c">Output:<div markdown="1">
+```
+AB CD
+
+```
+</div></label></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Answer Button. Here, we pass the ID of the quiz element (the parent of this button) to the showResults function.  -->
+</div>
+<button type="button" onclick="showResults(14);">Check Answers</button>

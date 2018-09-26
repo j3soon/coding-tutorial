@@ -1,0 +1,55 @@
+<script>
+window.addEventListener("load",function(){
+    quizzes['quiz-8'] = new Quiz('quiz-8', [
+        'g'
+    ]);
+},false);
+</script>
+<!-- Quiz 8 -->
+<div id="quiz-result-8" class="card quiz-result">
+    You Scored <span id="quiz-percent-8"></span>% - <span id="quiz-score-8"></span>/<span id="quiz-max-score-8"></span><br/>
+</div>
+<b id="quiz8">Quiz8</b>
+<div id="quiz-8" class="card quizlib-section">
+    <!-- Question 1 -->
+    <div class="quizlib-question">
+        <div class="quizlib-question-title">
+            <div markdown="1">
+```c
+#include <stdio.h>
+
+int main(void) {
+    int i;
+    char a[5] = {-1, -1, -1, -1, -1};
+    scanf("%s", a);
+    for (i = 0; i < 5; i++)
+        printf("%d ", (int)a[i]);
+    return 0;
+}
+```
+Input:
+```
+ ABC DE
+FG
+
+```
+Hint: `'A'` is `65`, `' '` is `32`, `'\n'` is `10`.
+</div>1. 上面程式碼的編譯／執行結果是？
+        </div>
+        <div class="quizlib-question-answers">
+            <ul>
+                <li><label><input type="radio" name="q1" value="a">65 66 67 32 68 </label></li>
+                <li><label><input type="radio" name="q1" value="b">32 65 66 67 32 </label></li>
+                <li><label><input type="radio" name="q1" value="c">65 66 67 -1 -1 </label></li>
+                <li><label><input type="radio" name="q1" value="d">32 65 66 67 -1 </label></li>
+                <li><label><input type="radio" name="q1" value="e">65 66 67 0 0 </label></li>
+                <li><label><input type="radio" name="q1" value="f">32 65 66 67 0 </label></li>
+                <li><label><input type="radio" name="q1" value="g">65 66 67 0 -1 </label></li>
+                <li><label><input type="radio" name="q1" value="h">32 65 66 67 0 </label></li>
+                <li><label><input type="radio" name="q1" value="i">undefined behavior</label></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Answer Button. Here, we pass the ID of the quiz element (the parent of this button) to the showResults function.  -->
+</div>
+<button type="button" onclick="showResults(8);">Check Answers</button>

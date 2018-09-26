@@ -1,0 +1,68 @@
+<script>
+window.addEventListener("load",function(){
+    quizzes['quiz-10'] = new Quiz('quiz-10', [
+        'b',
+        'c'
+    ]);
+},false);
+</script>
+<!-- Quiz 10 -->
+<div id="quiz-result-10" class="card quiz-result">
+    You Scored <span id="quiz-percent-10"></span>% - <span id="quiz-score-10"></span>/<span id="quiz-max-score-10"></span><br/>
+</div>
+<b id="quiz10">Quiz10</b>
+<div id="quiz-10" class="card quizlib-section">
+    <!-- Question 1 -->
+    <div class="quizlib-question">
+        <div class="quizlib-question-title">
+            <div markdown="1">
+```c
+#include <stdio.h>
+
+int main(void) {
+    int i;
+    char s[6] = {-1, -1, -1, -1, -1, -1};
+    fgets(s, 6, stdin);
+    for (i = 0; i < 6; i++)
+        printf("%d ", s[i]);
+    return 0;
+}
+```
+Input:
+```
+ABCDEF
+
+```
+Hint: `'A'` is `65`, `' '` is `32`, `'\n'` is `10`.
+</div>1. 上面程式碼的編譯／執行結果是？
+        </div>
+        <div class="quizlib-question-answers">
+            <ul>
+                <li><label><input type="radio" name="q1" value="a">65 66 67 68 69 70 </label></li>
+                <li><label><input type="radio" name="q1" value="b">65 66 67 68 69 0 </label></li>
+                <li><label><input type="radio" name="q1" value="c">undefined behavior</label></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Question 2 -->
+    <div class="quizlib-question">
+        <div class="quizlib-question-title">2. 那如果 Input 變成：
+            <div markdown="1">
+```
+ABCDEF
+
+```
+</div>程式碼的編譯／執行結果是？
+        </div>
+        <div class="quizlib-question-answers">
+            <ul>
+                <li><label><input type="radio" name="q2" value="a">65 66 67 0 0 0 </label></li>
+                <li><label><input type="radio" name="q2" value="b">65 66 67 0 -1 -1 </label></li>
+                <li><label><input type="radio" name="q2" value="c">65 66 67 10 0 -1 </label></li>
+                <li><label><input type="radio" name="q2" value="d">undefined behavior</label></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Answer Button. Here, we pass the ID of the quiz element (the parent of this button) to the showResults function.  -->
+</div>
+<button type="button" onclick="showResults(10);">Check Answers</button>

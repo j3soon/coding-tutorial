@@ -37,7 +37,7 @@ Project Crystal 的觀眾群設定為剛進清大資工系但卻沒有程式基�
 
 {% include {{page.id}}/quiz1.html %}
 
-<br/>
+如果想要得到更新的通知，可以追蹤我們的 [FB 粉專](https://www.facebook.com/projectcrystal0/), [IG帳號](https://www.instagram.com/project_crystal/).
 
 ![asking-questions]({{site.imgs}}{{page.id}}/asking-questions-grant-snider.jpg)
 <details><summary markdown="span">Credit</summary><div markdown="1">

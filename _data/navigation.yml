@@ -23,6 +23,8 @@ docs:
         url: /c-language/program-structure/
       - title: "Variables and the Assignment Operator"
         url: /c-language/variables-and-the-assignment-operator/
+      - title: "Standard I/O"
+        url: /c-language/standard-io/
   - title: Contributing
     children:
       - title: "Contributing Guidelines"
