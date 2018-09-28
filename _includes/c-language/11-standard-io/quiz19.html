@@ -1,0 +1,37 @@
+<script>
+window.addEventListener("load",function(){
+    quizzes['quiz-19'] = new Quiz('quiz-19', [
+        ['a', 'b']
+    ]);
+},false);
+</script>
+<!-- Quiz 19 -->
+<div id="quiz-result-19" class="card quiz-result">
+    You Scored <span id="quiz-percent-19"></span>% - <span id="quiz-score-19"></span>/<span id="quiz-max-score-19"></span><br/>
+</div>
+<b id="quiz19">Quiz19</b>
+<div id="quiz-19" class="card quizlib-section">
+    <!-- Question 1 -->
+    <div class="quizlib-question">
+        <div class="quizlib-question-title">
+            <div markdown="1">
+```c
+#include <stdio.h>
+
+int main(void) {
+    putchar('\a');
+    return 0;
+}
+```
+</div>1. 上面程式碼的編譯／執行結果是？
+        </div>
+        <div class="quizlib-question-answers">
+            <ul>
+                <li><label><input type="checkbox" name="q1" value="a">沒有輸出任何看得到的字元</label></li>
+                <li><label><input type="checkbox" name="q1" value="b">開聲音的話會聽到「叭」一聲或其他奇怪的聲音</label></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Answer Button. Here, we pass the ID of the quiz element (the parent of this button) to the showResults function.  -->
+</div>
+<button type="button" onclick="showResults(19);">Check Answers</button>
