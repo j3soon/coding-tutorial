@@ -25,6 +25,8 @@ docs:
         url: /c-language/variables-and-the-assignment-operator/
       - title: "Standard I/O"
         url: /c-language/standard-io/
+      - title: "Recusion - Hanoi Tower"
+        url: /c-language/recursion---hanoi-tower/
   - title: Contributing
     children:
       - title: "Contributing Guidelines"
